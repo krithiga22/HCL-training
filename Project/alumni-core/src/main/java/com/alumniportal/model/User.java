@@ -1,7 +1,7 @@
 
 package com.alumniportal.model;
 
-public class User {
+public class User extends BaseEntity {
 
     private int userId;
     private String name;
@@ -11,6 +11,9 @@ public class User {
 
     public User(int userId, String name, String email,
                 String passwordHash, String role) {
+
+        super((long) userId);
+
         this.userId = userId;
         this.name = name;
         this.email = email;
