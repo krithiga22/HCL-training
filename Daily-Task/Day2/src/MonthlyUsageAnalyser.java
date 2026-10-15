@@ -1,4 +1,4 @@
-//package Day2.src;
+package Day2.src;
 
 public class MonthlyUsageAnalyser {
 

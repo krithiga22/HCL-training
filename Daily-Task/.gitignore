@@ -1,0 +1,17 @@
+# Compiled binaries
+*.class
+*.jar
+
+# Maven target and build folders
+target/
+**/target/
+out/
+**/out/
+
+# IDE / Editor configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.project/
+.classpath/

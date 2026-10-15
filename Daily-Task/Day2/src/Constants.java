@@ -1,4 +1,4 @@
-//package Day2.src;
+package Day2.src;
 public class Constants {
     public static final int LOW_USAGE_LIMIT = 150;
     public static final int MEDIUM_USAGE_LIMIT = 250;
