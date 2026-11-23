@@ -22,6 +22,7 @@ public final class Constants {
     //  menu options
     public static final int MENU_VIEW_WEEKLY_ANALYTICS = 1;
     public static final int MENU_VIEW_SAMPLE_ALUMNI = 2;
+    public static final int MENU_COLLECTIONS_DEMO = 3;
     public static final int MENU_EXIT = 0;
 
     public static final int DAYS_IN_WEEK = 7;

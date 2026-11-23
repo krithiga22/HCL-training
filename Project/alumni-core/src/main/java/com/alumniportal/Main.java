@@ -16,6 +16,7 @@ public class Main {
             System.out.println("\n===== COLLEGE ALUMNI NETWORK PORTAL =====");
             System.out.println("1. View Weekly Analytics");
             System.out.println("2. View Sample Alumni");
+            System.out.println("3. Run Collections & Exceptions Demo (Day 7)");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -28,6 +29,9 @@ public class Main {
 
                     case Constants.MENU_VIEW_SAMPLE_ALUMNI ->
                         SampleData.displaySampleAlumni();
+
+                    case Constants.MENU_COLLECTIONS_DEMO ->
+                        SampleData.runCollectionsDemo();
 
                     case Constants.MENU_EXIT ->
                         System.out.println("Exiting Alumni Network Portal. Goodbye!");
